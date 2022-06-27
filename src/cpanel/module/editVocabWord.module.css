@@ -1,0 +1,10 @@
+.editIcon {
+  width: 25px;
+  fill: #cccccc;
+  margin-right: 10px;
+  float: right;
+}
+
+.editIcon:hover {
+  fill: #333333;
+}

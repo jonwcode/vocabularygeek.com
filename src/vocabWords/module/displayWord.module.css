@@ -1,0 +1,42 @@
+.wordContainer {
+  width: 100%;
+  padding: 20px;
+  display: inline-block;
+}
+
+.name {
+  font-size: 2rem;
+  color: rgb(27, 80, 116);
+}
+
+.play {
+  width: 25px;
+  fill: rgb(26, 102, 153);
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.play:hover {
+  fill: rgb(63, 128, 172);
+}
+
+.play:active {
+  opacity: 0.8;
+}
+
+.wordHeader {
+}
+
+.description {
+  font-size: 1.5rem;
+}
+
+.descriptionContainer {
+  padding: 20px;
+  display: inline-block;
+}
+
+.type {
+  font-weight: 600;
+  margin-left: 10px;
+}

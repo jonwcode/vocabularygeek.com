@@ -1,0 +1,43 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.vocabularyWords {
+  width: 50%;
+  display: flex;
+  border-right: 1px dashed #cccccc;
+}
+
+.savedWords {
+  width: 50%;
+  padding: 10px;
+}
+
+.headerText {
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  color: #1a1a1a;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 800px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .vocabularyWords {
+    width: 100%;
+  }
+
+  .savedWords {
+    width: 100%;
+    border-left: 0;
+  }
+
+  .vocabularyWords {
+    border-right: 0;
+  }
+}

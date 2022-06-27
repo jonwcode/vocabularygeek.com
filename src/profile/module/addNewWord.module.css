@@ -1,0 +1,192 @@
+.addWordHeader {
+  display: flex;
+  width: 100%;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.addWordHeaderText {
+  width: 50%;
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  color: #1a1a1a;
+}
+
+.plusIcon {
+  position: relative;
+  top: -2px;
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+  float: left;
+}
+
+.restoreIcon {
+  position: relative;
+  top: -2px;
+  padding: 0;
+  margin: 0;
+  margin-right: 10px;
+  float: left;
+  fill: #8b8b8b;
+}
+
+.restoreIcon:hover {
+  fill: lightblue;
+}
+
+.addButton {
+  font-size: 1rem;
+  background: rgb(41, 118, 232);
+  background: linear-gradient(
+    180deg,
+    rgba(41, 118, 232, 0.9663574902617297) 0%,
+    rgba(10, 109, 228, 0.9915675742953431) 56%
+  );
+  border: 2px solid rgb(9, 94, 173);
+  border-radius: 5px;
+  color: #eeeeee;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.addButton:active {
+  opacity: 0.8;
+}
+
+.currentWords {
+  padding: 20px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 1rem;
+}
+
+.addNewWordButtonContainer {
+  width: 100%;
+}
+
+.vocabWordContainer {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.headerText {
+  width: 48%;
+  text-align: center;
+  display: inline-block;
+  margin-right: 10px;
+  box-sizing: border-box;
+  font-weight: bold;
+  padding: 5px;
+  color: #525252;
+}
+
+.vocabWordRow {
+  background-color: #f8f8f8;
+  width: 100%;
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.vocabWordText {
+}
+
+.vocabWordRow:hover {
+  background-color: rgb(218, 225, 240);
+}
+
+.vocabWordHeader {
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.editIcon {
+  width: 25px;
+  fill: #cccccc;
+  margin-right: 10px;
+  float: right;
+}
+
+.editIcon:hover {
+  fill: #333333;
+}
+
+.noMoreWords {
+  width: 100%;
+  display: inline-block;
+  font-size: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+  margin: 20px 0 20px 0;
+}
+
+.noMoreWords > span {
+  background-color: #ffffff;
+  position: relative;
+  top: 9px;
+  padding: 0 50px 0 50px;
+  display: inline-block;
+  color: #8b8b8b;
+  font-style: italic;
+}
+
+.loadMoreWordsBtn > span {
+  background-color: #ffffff;
+  position: relative;
+  top: 18px;
+  padding: 0 50px 0 50px;
+  display: inline-block;
+}
+
+.loadMoreWordsBtn:hover {
+  border-bottom: 1px solid #8093af;
+  color: #333333;
+}
+
+.loadMoreWordsBtn {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-bottom: 1px solid #cccccc;
+  background-color: transparent;
+  font-size: 1rem;
+  color: #8b8b8b;
+  margin: 20px 0 20px 0;
+  cursor: pointer;
+}
+
+.loadingMore {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #7e7e7e;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .addWordHeaderText {
+    font-size: 0.9rem;
+  }
+}

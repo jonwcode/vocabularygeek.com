@@ -1,0 +1,66 @@
+.timestamp {
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #535353;
+  padding: 20px 0 0px 0;
+  display: inline-block;
+}
+.wordContainer {
+  width: 100%;
+  padding: 20px;
+  display: inline-block;
+  position: relative;
+  overflow-wrap: break-word;
+  box-sizing: border-box;
+}
+
+.name {
+  font-size: 2rem;
+  color: rgb(143, 188, 143);
+  font-weight: bold;
+}
+
+.play {
+  width: 25px;
+  fill: rgb(60, 179, 113);
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.play:hover {
+  fill: rgb(36, 200, 85);
+}
+
+.play:active {
+  opacity: 0.8;
+}
+
+.wordHeader {
+}
+
+.description {
+  font-size: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.descriptionContainer {
+  padding: 20px 0px 20px 0;
+  width: 100%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.type {
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.saveWordContainer {
+  float: right;
+  position: relative;
+}

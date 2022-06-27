@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600;700;800&display=swap");
+
+.wrapper {
+  position: absolute;
+  margin-top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  padding: 20px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 17px 0px rgba(8, 8, 8, 1);
+  -moz-box-shadow: 0px 0px 17px 0px rgba(8, 8, 8, 1);
+  box-shadow: 0px 0px 17px 0px rgba(8, 8, 8, 1);
+  border-radius: 5px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.headerBar {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #cccccc;
+}
+
+span.headerText {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.modalTitle {
+  width: 90%;
+  text-align: center;
+  font-family: "Baloo Bhaijaan 2", cursive;
+}
+
+.closeBtnContainer {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.closeIcon {
+  width: 35px;
+  height: 35px;
+  fill: #777676;
+  cursor: pointer;
+}
+
+.closeIcon:hover {
+  fill: #000000;
+}
+
+.overLay {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: hsla(0, 0%, 0%, 0.39);
+  z-index: 5;
+}
+
+.inputContainer {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.inputContainer input {
+  padding: 10px;
+  width: 50%;
+  box-sizing: border-box;
+  font-size: 1.4rem;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+.inputContainer input:focus {
+  border-bottom: 1px solid lightblue;
+}
+
+.inputContainer select {
+  padding: 10px;
+  font-size: 1.4rem;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+.labelText {
+  padding: 10px;
+  font-weight: 500;
+  width: 150px;
+  font-size: 1.5rem;
+}
+
+.inputField {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.richTextEditorContainer {
+  width: 500px;
+  height: 100px;
+  display: inline-block;
+}
+
+.submitBtn {
+  margin-right: 20px;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid rgb(172, 172, 172);
+  background: rgb(241, 241, 241);
+  background: linear-gradient(
+    112deg,
+    rgba(241, 241, 241, 0.9663574902617297) 0%,
+    rgba(209, 209, 209, 0.9915675742953431) 56%
+  );
+  color: #494949;
+  border-radius: 5px;
+  font-weight: 600;
+  float: right;
+}
+
+.submitBtn:active {
+  opacity: 0.7;
+}
+
+.submitBtn:disabled {
+  background: #f3f3f3;
+  color: rgb(8, 8, 8);
+}
+
+.inputError {
+  border-bottom: 1px solid red !important;
+}
+
+.phrase {
+  color:rgb(215, 235, 215);
+  font-weight:700;
+  font-size: 1rem;
+  background: rgb(86,195,65);
+  background: linear-gradient(180deg, rgba(86,195,65,1) 23%, rgba(124,194,22,1) 48%);
+  display:inline-block;
+  height: 22px;
+  padding: 10px;
+  border-radius: 10px;
+  border:1px solid rgb(113, 201, 113);
+  animation: phraseFade 0.3s forwards;
+  opacity: 0;
+  user-select: none;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(153,153,153,1);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(153,153,153,1);
+  box-shadow: 0px 0px 15px 0px rgba(153,153,153,1);
+}
+
+@keyframes phraseFade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.inputGroup {
+  width: 100%;
+  display:inline-block;
+}
+
+.nameInput {
+  float:left;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .phrase {
+    width: 100px;
+    float:left !important;
+  }
+
+  .inputContainer {
+    padding: 5px;
+  }
+
+  .mobileContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    display: inline-block;
+    width: 100%;
+    height: 90%;
+    z-index: 500;
+    background: #ffffff;
+    padding: 50px 0 50px 0px;
+  }
+
+  .overflow {
+    padding: 50px 0 20px 0;
+  }
+
+  .wrapper {
+    margin-top: 0;
+    padding: 20px 0px;
+  }
+
+  .inputField {
+    flex-direction: column;
+  }
+
+  .inputContainer input {
+    width: 80%;
+  }
+
+  .wrapper {
+    width: 100%;
+    min-height: 100%;
+    max-height: 999999px;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    border-radius: 0;
+  }
+}

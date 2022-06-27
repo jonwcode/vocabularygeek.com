@@ -1,0 +1,39 @@
+.browseImagesContainer {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.browseImagesContainer svg {
+  position: relative;
+  top: -10px;
+  left: 0;
+  cursor: pointer;
+  fill: #6d6d6d;
+}
+
+.browseImagesContainer input:hover {
+  fill: #333333;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+.browseImagesContainer input {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  width: 25px;
+  height: 22px;
+  opacity: 0;
+  z-index: 1;
+}
+
+.downloadingImage {
+  opacity: 0.5;
+  display: inline-block;
+}

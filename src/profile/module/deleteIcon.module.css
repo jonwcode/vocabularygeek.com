@@ -1,0 +1,13 @@
+.iconContainer {
+  float: right;
+  margin-left: 10px;
+}
+
+.icon {
+  width: 20px;
+  fill: #d1acac;
+}
+
+.icon:hover {
+  fill: #cccccc;
+}

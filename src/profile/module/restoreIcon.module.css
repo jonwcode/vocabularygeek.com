@@ -1,0 +1,9 @@
+.icon {
+  float: right;
+  fill: #8b8b8b;
+  width: 20px;
+}
+
+.icon:hover {
+  fill: lightblue;
+}

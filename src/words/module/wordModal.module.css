@@ -1,0 +1,43 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 20;
+  overflow-y: scroll !important;
+}
+
+.dayLight {
+  background-color: #dad8d8;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(241, 241, 241);
+  background: linear-gradient(
+    180deg,
+    rgba(241, 241, 241, 1) 0%,
+    rgb(204, 218, 218) 56%
+  );
+}
+
+.nightLight {
+  background: rgb(10, 11, 11);
+  background: linear-gradient(
+    156deg,
+    rgba(10, 11, 11, 0.9364789861257002) 0%,
+    rgba(65, 79, 96, 1) 56%
+  );
+}
+
+.overlay {
+  background-color: #ffffff;
+  width: 100%;
+  height: 99999px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

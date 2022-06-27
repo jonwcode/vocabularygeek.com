@@ -1,0 +1,40 @@
+.navWrapper {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 20px 0 20px 0;
+  border: 1px solid #000000;
+}
+
+.navLink {
+  margin-left: 20px;
+  background-color: rgb(216, 233, 239);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.navTitle {
+  height: 50px;
+  line-height: 50px;
+  color: #4a4a4a;
+}
+
+.navLink a {
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+.navLink a:active {
+  color: red;
+}
+
+@media only screen and (max-width: 800px) {
+  .navWrapper {
+    font-size: 0.8rem;
+  }
+}

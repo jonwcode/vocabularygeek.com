@@ -1,0 +1,40 @@
+.wordContainer a {
+  background-color: #f5f5f5;
+  color: rgb(30, 58, 77);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.wordContainer li {
+  width: 100%;
+  background-color: #faf9f9;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.wordContainer a:hover {
+  color: #137a99;
+}
+.unsaveWord {
+  font-size: 1em;
+  position: relative;
+  top: 8px;
+  float: right;
+  cursor: pointer;
+}
+
+.xmark {
+  fill: #cccccc;
+  cursor: pointer;
+}
+
+.xmark:hover {
+  fill: rgb(88, 88, 88);
+}
+
+.phraseList a {
+  color: rgb(60, 179, 113) !important;
+}

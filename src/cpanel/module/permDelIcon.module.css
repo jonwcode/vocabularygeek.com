@@ -1,0 +1,10 @@
+.icon {
+  float: right;
+  fill: #9b9b9b;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.icon:hover {
+  fill: rgb(197, 56, 51);
+}

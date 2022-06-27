@@ -1,0 +1,55 @@
+.loadMoreWordsBtn > span {
+  background-color: #ffffff;
+  position: relative;
+  top: 18px;
+  padding: 0 50px 0 50px;
+  display: inline-block;
+}
+
+.loadMoreWordsBtn:hover {
+  border-bottom: 1px solid #8093af;
+  color: #333333;
+}
+
+.loadMoreWordsBtn {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-bottom: 1px solid #cccccc;
+  background-color: transparent;
+  font-size: 1rem;
+  color: #8b8b8b;
+  margin: 20px 0 20px 0;
+  cursor: pointer;
+}
+
+.loadingMore {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #7e7e7e;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.noMoreWords {
+  width: 100%;
+  display: inline-block;
+  font-size: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+  margin: 20px 0 20px 0;
+}
+
+.noMoreWords > span {
+  background-color: #ffffff;
+  position: relative;
+  top: 9px;
+  padding: 0 50px 0 50px;
+  display: inline-block;
+  color: #8b8b8b;
+  font-style: italic;
+}
